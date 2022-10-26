@@ -1,0 +1,62 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+    font-family: "Quick Kiss Personal Use";
+    src: local("QuickKissPersonalUse-400") url(../fonts/Quick\ Kiss\ Personal\ Use.woff),
+        url(../fonts/Quick\ Kiss\ Personal\ Use.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    background: url("../img/background.jpg") center (top/cover) no-repeat;
+    background-size: auto;
+}
+
+.wrapper-header {
+    padding-bottom: 174px;
+}
+
+.wrapper-info {
+    padding-top: 96px;
+    padding-bottom: 162px;
+}
+
+.container {
+    position: relative;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 10px;
+}
+h3 {
+    font-family: "Quick Kiss Personal Use";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 15px;
+    color: #ffc814;
+}
+button {
+    width: 160px;
+    height: 56px;
+    background: #ffc814;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1f3347;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #ffc814;
+}
+
+@import "header.scss";
+@import "info.scss";
+@import "search.scss";
+@import "media.scss";
